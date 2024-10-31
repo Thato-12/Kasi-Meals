@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Kasi Meals - Reach Out for Authentic South African Cuisine</title>
+    <meta name="description" content="Get in touch with Kasi Meals for inquiries about our menu, services, and more. We look forward to hearing from you!">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: blanchedalmond;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <header><img src="Images/coverpage.jpg" width="15%" height="20%" alt="Logo for Kasi Meals"></header>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Contact us.html">Contact Us</a></li>
+                <li><a href="News.html">News about us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p><b>Contact us. We hope to hear from you soon.</b></p>
+        <p><b>Address:</b> 254 Mandela Road, Johannesburg, 2090</p>
+        <p><b>Phone Number:</b> 0824357345</p>
+        <p><b>Email:</b> <a href="mailto:info@kasimeals.co.za">info@kasimeals.co.za</a></p>
+        <p><b><u><i>On social media platforms:</i></u></b></p>
+        <p><b>Facebook:</b> KASI_MEALS</p>
+        <p><b>Instagram:</b> KASI_MEALS_</p>
+        <p><b>Twitter:</b> @KasiMeals</p>
+    </div>
+
+    <h3>Get in Touch</h3>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="inquiry-type">What is your inquiry about?</label>
+        <div>
+            <input type="radio" id="general" name="inquiry-type" value="General Inquiry" required>
+            <label for="general">General Inquiry</label>
+        </div>
+        <div>
+            <input type="radio" id="menu" name="inquiry-type" value="Menu Inquiry">
+            <label for="menu">Menu Inquiry</label>
+        </div>
+        <div>
+            <input type="radio" id="service" name="inquiry-type" value="Service Inquiry">
+            <label for="service">Service Inquiry</label>
+        </div>
+        <div>
+            <input type="radio" id="feedback" name="inquiry-type" value="Feedback">
+            <label for="feedback">Feedback</label>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <h3>Find Us</h3>
+    <div class="map">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094363!2d144.95373631531868!3d-37.81627997975199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f0d9c55%3A0x5045675218ceedf!2sKota%20Meals!5e0!3m2!1sen!2sza!4v1612970805365!5m2!1sen!2sza" 
+            width="600" 
+            height="600" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Kasi Food. All rights reserved.</p>
+        <script src="javascript.js"></script>
+    </div>
+</body>
+</html>
